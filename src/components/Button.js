@@ -16,7 +16,6 @@ const styles = {
 class Button extends Component {
     
     render() {
-        console.log(this.props);
         return (
             <button style={styles.button} {...this.props} />
         );
